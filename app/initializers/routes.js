@@ -6,6 +6,7 @@ export function initialize() {
     this.route('page', { path: '/page/:id' });
     this.route('author', { path: '/author/:id'});
     this.route('tag', { path: '/tag/:id' });
+    this.mount('dashboard', { path: '/ghost' });
   });
 }
 

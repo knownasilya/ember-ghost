@@ -62,6 +62,7 @@
     "ember-cli-uglify": "^2.0.0",
     "ember-data": "^3.1.1",
     "ember-disable-prototype-extensions": "^1.1.2",
+    "ember-engines": "^0.5.20",
     "ember-export-application-global": "^2.0.0",
     "ember-ghost-casper-template": "^2.0.1",
     "ember-load-initializers": "^1.0.0",
@@ -84,6 +85,7 @@
     "before": "prember",
     "demoURL": "https://ember-ghost.stonecircle.io",
     "paths": [
+      "lib/dashboard",
       "lib/koenig-editor"
     ]
   }
