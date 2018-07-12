@@ -82,6 +82,9 @@
   "ember-addon": {
     "configPath": "tests/dummy/config",
     "before": "prember",
-    "demoURL": "https://ember-ghost.stonecircle.io"
+    "demoURL": "https://ember-ghost.stonecircle.io",
+    "paths": [
+      "lib/koenig-editor"
+    ]
   }
 }
